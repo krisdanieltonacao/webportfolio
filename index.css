@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.dbrown{
+	background: #1f1212;
+
+}
+
+/* Style for Aboutme Section */
+#myphoto{
+	height: 280px;
+	width: 280px;
+}
+
+.about{
+	display: flex;
+	background: url("images/banner-5.jpg") no-repeat center;
+	height: 100vh;
+	min-height: 500px;
+	background-size: cover;
+	background-attachment: scroll;
+}
+
+.about .about-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+.about .about-content .column{
+	width: calc(50% - 30px);
+}
+.about .about-content .left .text{
+	font-size:	20px;
+	font-weight: 600;
+	text-align: center;
+	padding-left: 20px;
+}
+.about .about-content .left p{
+	text-align: justify;
+	font-size: 18px;
+}
+
+
+.about .about-content .right .text{
+	font-size:	20px;
+	font-weight: 600;
+	text-align: center;
+	padding-left: 20px;
+}
+.about .about-content .right .bar{
+	margin-bottom: 15px;
+}
+.about .about-content .right .info{
+	display: flex;
+	margin-bottom: 5px;
+	align-items: center;
+	justify-content: space-between;
+}
+.about .about-content .right .info:hover{
+	color: turquoise;
+	-webkit-transform: scale(1.05); 
+}
+.about .about-content .right span{
+	font-weight: 600;
+	font-size: 18px;
+	padding: 5px;
+}
+.about .about-content .right .line{
+	height: 10px;
+	width: 100%;
+	background-color: lightgrey;
+	position: relative;
+}
+.about .about-content .right .line::before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	left:	0;
+	right: 0;
+	background: red;
+}
+.about-content .right .html::before{
+	width: 95%;
+}
+.about-content .right .css::before{
+	width: 85%;
+}
+.about-content .right .javascript::before{
+	width: 80%;
+}
+.about-content .right .php::before{
+	width: 88%;
+}
+.about-content .right .mysql::before{
+	width: 83%;
+}
+
+
