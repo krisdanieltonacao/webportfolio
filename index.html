@@ -17,8 +17,8 @@
 	<title>KRIS - WEB DEV</title>
 </head>
 <body>
-  <!-- Start of Navbar -->
- <div class="container-fluid p-0 m-0">
+<!-- Start of Navbar -->
+  <div class="container-fluid p-0 m-0">
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top dbrown">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -35,21 +35,17 @@
     </nav>
   </div>
 <!-- End of Navbar -->
-   <!-- Start of Landing page -->
-    <section id="home">
-      <div class="container-fluid p-0 m-0">
-          <img class="img-fluid card-img-top" src="images/bulb.gif" alt="">
-          <h1 class="caption animate__animated animate__pulse blink text-light text-center">Making Ideas Come Alive on the Internet.</h1>
-      </div>
-      
-    </section>
-
-
-<!-- Start of about me -->
-  
-
-<section class="container-fluid">
-<h2 class="py-5 text-center font-weight-bold">About Me</h2>
+<!-- Start of Home -->
+  <section id="home">
+    <div class="container-fluid p-0 m-0">
+      <img class="img-fluid card-img-top" src="images/bulb.gif" alt="">
+      <h1 class="caption animate__animated animate__pulse blink text-light text-center">Making Ideas Come Alive on the Internet.</h1>
+    </div>
+  </section>
+<!-- End of Home -->
+<!-- Start of About Me -->
+  <section class="container-fluid" id="aboutme">
+    <h2 class="py-5 text-center font-weight-bold">About Me</h2>
     <div class="p-3 d-md-flex justify-content-around">
       <div class="p-3 col-md-6">
         <img class="img-fluid rounded mx-auto d-block" src="images\me.png" alt="myphoto" id="myphoto">
@@ -95,70 +91,67 @@
               </div>
               <div class="line mysql"></div>
             </div>
-
-      </div>
-
+        </div>
     </div>
-</section>
+  </section>
  <!-- End of About me -->
-
-
-    <!-- Start of Projects -->
-    <section class="container-fluid text-light dbrown" id="projects">
-      <div>
-        <h2 class="py-5 text-center font-weight-bold">Projects</h2>
-        <div class="p-md-3 p-sm-3 d-sm-flex">
-          <!-- COMPTECH Card -->
-          <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
-            <div class="card-body">
-              <img src="images\comptech.jpg" class="card-img-top" alt="">
-              <h5 class="card-title mt-3">Computer Hardware</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Techsupport/Troubleshooting</h6>
+<!-- Start of Projects -->
+  <section class="container-fluid text-light dbrown" id="projects">
+    <div>
+      <h2 class="py-5 text-center font-weight-bold">Projects</h2>
+      <div class="p-md-3 p-sm-3 d-sm-flex">
+        <!-- COMPTECH Card -->
+        <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
+          <div class="card-body">
+            <img src="images\comptech.jpg" class="card-img-top" alt="">
+            <h5 class="card-title mt-3">Computer Hardware</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Tech Support / Troubleshooting</h6>
               <!-- <a href="#" class="card-link">Link to Project</a> -->
-            </div>
           </div>
-          <!-- END of COMPTECH -->
-          <!-- WEBDEV Card -->
-          <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
-            <div class="card-body">
-              <img src="images\iamwebdev.png" class="card-img-top">
-              <h5 class="card-title mt-3">IAM WEBDEV</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Company Portfolio Website</h6>
-              <p class="card-text"></p>
-            </div>
+        </div>
+        <!-- END of COMPTECH -->
+        <!-- WEBDEV Card -->
+        <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
+          <div class="card-body">
+            <img src="images\iamwebdev.png" class="card-img-top">
+            <h5 class="card-title mt-3">IAM WEBDEV</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Company Portfolio Website</h6>
+            <p class="card-text"></p>
           </div>
-          <!-- End of WEBDEV -->
-          <!-- ComputerNetworking Card -->
-          <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
-            <div class="card-body">
-              <img src="images\compnet.jpg" class="card-img-top" alt="">
-              <h5 class="card-title mt-3">LAN Cabling</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Building LAN Network</h6>
-            </div>
+        </div>
+        <!-- End of WEBDEV -->
+        <!-- ComputerNetworking Card -->
+        <div class="card bg-dark col-xl-4 mb-3 mb-xl-0 col-xs-8">
+          <div class="card-body">
+            <img src="images\compnet.jpg" class="card-img-top" alt="">
+            <h5 class="card-title mt-3">LAN Cabling</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Building LAN Network</h6>
           </div>
-          <!-- End of Computer Networking -->
+        </div>
+        <!-- End of Computer Networking -->
+      </div>
+    </div>
+  </section>
+<!-- End of projects -->
+<!-- Tools Section Start -->
+  <section class="container-fluid" id="tools">
+    <h2 class="py-5 text-center font-weight-bold">Tools</h2>
+      <div class="text-center">
+        <div>
+          <img class="p-3" width="150" src="images/html5.jpg"/>
+        </div>
+        <div>
+          <img class="p-3" width="150" src="images/ccs3.png"/>
+          <img class="p-3" width="150" src="images/javascript.jpg"/>
+        </div>
+        <div>
+          <img class="p-3" width="150" src="images/PHP-logo.svg.png"/>
+          <img class="p-3" width="150" src="images/MySQL-Logo.wine.png"/>
         </div>
       </div>
-    </section>
-      <!-- End of projects -->
-      <!-- Tools Section Start -->
-    <section class="container-fluid" id="tools">
-      <h2 class="py-5 text-center font-weight-bold">Tools</h2>
-        <div class="text-center">
-          <div>
-            <img class="p-3" width="150" src="images/html5.jpg"/>
-          </div>
-          <div>
-            <img class="p-3" width="150" src="images/ccs3.png"/>
-            <img class="p-3" width="150" src="images/javascript.jpg"/>
-          </div>
-          <div>
-            <img class="p-3" width="150" src="images/PHP-logo.svg.png"/>
-            <img class="p-3" width="150" src="images/MySQL-Logo.wine.png"/>
-          </div>
-        </div>
-    </section>
-    <!-- Start Contact Form -->
+  </section>
+  <!-- End of Tools -->
+  <!-- Start Contact Form -->
   <section class="container-fluid text-light dbrown" id="contact">
     <div class="p-md-5 d-lg-flex d-md-flex justify-content-center">
       <div class="col-lg-6 col-md-6 p-1 m-0">
@@ -183,10 +176,11 @@
               <textarea class="form-control" rows="3"></textarea>
             </div>
             <button type="button" class="btn btn-dark text-light" data-toggle="modal" data-target="#exampleModal">Submit</button>
-            </form>
-          </div>
+          </form>
         </div>
-</section>
+      </div>
+    </div>
+  </section>
 <!-- End Contact -->
 <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -207,7 +201,6 @@
       </div>
     </div>
   </div>
-
 <footer class="dbrown p-0 m-0 font-weight-bold text-light text-center">
 <p>&#169; 2022. All rights Reserved.</p>
 </footer>
