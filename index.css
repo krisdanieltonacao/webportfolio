@@ -142,7 +142,7 @@
 
 .info:hover{
 	color: turquoise;
-	-webkit-transform: scale(1.05); 
+	
 }
 .bar .info span{
 	font-weight: 600;
