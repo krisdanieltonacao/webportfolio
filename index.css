@@ -12,74 +12,151 @@
 	background: #1f1212;
 
 }
+.blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
 
-/* Style for Aboutme Section */
+
+@media (min-width: 1920px){
+	.caption{
+		position: absolute;
+	    top: 40%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 1280px){
+	.caption{
+		font-size: 50px;
+		position: absolute;
+	    top: 40%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 1024px){
+	.caption{
+		position: absolute;
+	    top: 30%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+		font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 900px){
+	.caption{
+		position: absolute;
+	    top: 20%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 800px){
+	.caption{
+		position: absolute;
+		top: 20%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 720px){
+	.caption{
+		position: absolute;
+		top: 20%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 375px){
+	.caption{
+		position: absolute;
+		top: 10%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+@media (min-width: 200px){
+	.caption{
+		position: absolute;
+		top: 10%;
+	    left: 0;
+	    width: 100%;
+	    font-weight: 600;
+	    font-size: calc(100% + 1vw + 1vh);
+	}
+
+}
+
+
 #myphoto{
 	height: 280px;
 	width: 280px;
 }
 
-.about{
-	display: flex;
-	background: url("images/banner-5.jpg") no-repeat center;
-	height: 100vh;
-	min-height: 500px;
-	background-size: cover;
-	background-attachment: scroll;
-}
-
-.about .about-content{
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: space-between;
-}
-.about .about-content .column{
-	width: calc(50% - 30px);
-}
-.about .about-content .left .text{
-	font-size:	20px;
-	font-weight: 600;
-	text-align: center;
-	padding-left: 20px;
-}
-.about .about-content .left p{
-	text-align: justify;
-	font-size: 18px;
-}
-
-
-.about .about-content .right .text{
-	font-size:	20px;
-	font-weight: 600;
-	text-align: center;
-	padding-left: 20px;
-}
-.about .about-content .right .bar{
+.bar{
 	margin-bottom: 15px;
 }
-.about .about-content .right .info{
+.info{
 	display: flex;
 	margin-bottom: 5px;
 	align-items: center;
 	justify-content: space-between;
 }
-.about .about-content .right .info:hover{
+
+.info:hover{
 	color: turquoise;
 	-webkit-transform: scale(1.05); 
 }
-.about .about-content .right span{
+.bar .info span{
 	font-weight: 600;
 	font-size: 18px;
 	padding: 5px;
 }
-.about .about-content .right .line{
+.line{
 	height: 10px;
 	width: 100%;
 	background-color: lightgrey;
 	position: relative;
 }
-.about .about-content .right .line::before{
+.line::before{
 	content: "";
 	position: absolute;
 	height: 100%;
@@ -87,20 +164,19 @@
 	right: 0;
 	background: red;
 }
-.about-content .right .html::before{
+.html::before{
 	width: 95%;
 }
-.about-content .right .css::before{
+.css::before{
 	width: 85%;
 }
-.about-content .right .javascript::before{
+.javascript::before{
 	width: 80%;
 }
-.about-content .right .php::before{
+.php::before{
 	width: 88%;
 }
-.about-content .right .mysql::before{
+.mysql::before{
 	width: 83%;
 }
-
 
